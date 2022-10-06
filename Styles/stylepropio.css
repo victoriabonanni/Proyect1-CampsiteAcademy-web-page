@@ -1,0 +1,417 @@
+/* DISEÑO DE HOME */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  /* display: flex; porque en este caso no funciona? */
+  flex-direction: row;
+  border: 0px solid black;
+  background-color: transparent;
+}
+
+.button a {
+  text-decoration: none;
+  color: rgb(112, 71, 30);
+  font-size: 12px;
+  padding: 60px;
+}
+
+.body {
+  text-align: center;
+  position: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-image: url("../Imágenes/CampSiteLogo.png");
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px rgb(145, 97, 7);
+}
+
+.body nav {
+  position: relative;
+  top: 30px;
+  padding-bottom: 8px;
+}
+
+.título {
+  /* padding-left: 225px;
+    padding-bottom: 30px; */
+}
+
+.logo {
+  width: 180px;
+  height: 160px;
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 28px;
+  margin-top: -60px;
+}
+
+.título h1 {
+  position: relative;
+  top: -65px;
+  margin-left: -220px;
+  font-size: 15px;
+  color: white;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 225px;
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  padding-top: 30px;
+  margin-left: 220px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(242, 145, 49);
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgb(242, 145, 49);
+  width: 77%;
+}
+
+.fechas {
+  display: flex;
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.fecha1 {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+  justify-content: center;
+  padding-right: 50px;
+  margin-left: -20px;
+}
+
+.day {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 27px;
+}
+
+.day .number {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: -3px;
+}
+
+/* porque el numero 16 lo tengo mas separado? */
+/* .fecha3 .day {
+    padding-left: 10px;
+} */
+
+.courses {
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px;
+  color: rgb(242, 145, 49);
+}
+
+.boton {
+  border: 0px solid black;
+  border-radius: 10px;
+  background-color: rgb(231, 195, 158);
+  background-size: 10px;
+  margin-top: 10px;
+}
+
+.boton a {
+  text-decoration: none;
+  color: rgb(24, 23, 22);
+  font-size: 14px;
+  padding: 40px;
+}
+
+.fecha2 {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  border-right: 1px solid black;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.fecha3 {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0px solid black;
+  padding-left: 50px;
+}
+
+/* DISEÑO DE CONTACTO */
+
+.subtitulo2 {
+  padding-top: 30px;
+  margin-left: 220px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(242, 145, 49);
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgb(242, 145, 49);
+  width: 77%;
+}
+
+.contacto {
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contacto p {
+  font-size: 20px;
+}
+
+/* DISEÑO DE CONÓCENOS */
+
+.subtitulo {
+  padding-top: 30px;
+  margin-left: 220px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(242, 145, 49);
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgb(242, 145, 49);
+  width: 77%;
+}
+
+.intro {
+  text-align: center;
+  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.mentores {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding-top: 30px;
+  margin-left: 100px;
+}
+
+.cv1 img {
+  width: 300px;
+  height: 380px;
+  border-radius: 150px;
+  margin-left: 320px;
+}
+
+.cv2 img {
+  width: 380px;
+  height: 380px;
+  margin-left: 200px;
+}
+
+.mentor1 h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(242, 145, 49);
+  margin-left: 150px;
+  padding-bottom: 30px;
+  padding-top: -40px;
+}
+
+.mentor2 h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(242, 145, 49);
+  margin-left: 250px;
+  margin-right: 130px;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+.cv1 p {
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  padding: 40px;
+  text-align: left;
+}
+
+.cv2 p {
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  padding: 40px;
+  text-align: right;
+}
+
+/* DISEÑO DE BOOTCAMP */
+
+/* TABLAS */
+.table {
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  /* padding-top: 100px; */
+}
+
+.table .head {
+  border: 2px solid black;
+}
+
+th {
+  background-color: rgb(239, 156, 54);
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  padding: 5px;
+}
+
+tr td {
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(229, 189, 115);
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+tr:hover td {
+  color: white;
+  background: rgb(239, 156, 54);
+}
+
+.head tr {
+  font-size: 18px;
+}
+
+/* .foot tr {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+} */
+
+/* LISTAS */
+
+.listas {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.listas h2 {
+  padding: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: rgb(242, 145, 49);
+  text-decoration: underline;
+  /* margin-left: 500px;
+    margin-right: 100px; */
+}
+
+/* .listas li {
+    list-style-position: inside;
+} */
+
+.tags {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  padding-bottom: 40px;
+}
+
+ul li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.tags p {
+  margin-left: 40px;
+  font-style: italic;
+}
+
+ol li {
+  list-style-type: circle;
+  margin-left: 50px;
+}
+
+.prop {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+/* .tags {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+    margin-left: -100px;
+    padding-top: 110px;
+}
+
+ul li {
+    list-style-type: square;
+    list-style-position: outside;
+    text-align: center;
+
+}
+
+.tags p {
+    text-decoration: underline;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+ol li {
+    list-style-type: circle;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+.prop {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+    padding-top: 110px;
+    margin-left: -30px;
+    padding-left: -10px;
+
+} */
+
+.footer {
+  background-color: rgb(246, 153, 87);
+  padding: 20px;
+  text-align: center;
+}
+
+/* DISEÑO DE FORMULARIOS */
+
+.form {
+  width: 80%;
+  margin-top: 40px;
+}

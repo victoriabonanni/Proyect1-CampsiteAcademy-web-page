@@ -1,0 +1,231 @@
+/* DISEÑO DE HOME */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .logo{
+    width: 170px;
+    height: 70px;
+    display: table-cell;
+   margin:auto;
+vertical-align: middle;
+   
+} */
+.body .logo {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+}
+
+
+
+.título {
+    background-image: url("../Imágenes/background.jpg");
+    font-size: 20px;
+    height: 100px;
+}
+
+.título h1 {
+    padding-top: 40px;
+}
+
+.subtitle {
+    padding: 20px
+}
+
+.body {
+    text-align: center;
+}
+
+
+
+
+
+
+.fechas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fecha1 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.number p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+
+.day {
+    margin-right: 20px;
+}
+
+.courses {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.button {
+    align-self: center;
+}
+
+.fecha2 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.fecha3 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-bottom: 0px solid black;
+    padding-bottom: 10px;
+}
+
+
+/* DISEÑO DE CONOCENOS */
+
+.subtitulo {
+    text-align: center;
+    padding: 20px;
+    /* border: 2px solid black */
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.mentores {
+    display: flex;
+    flex-direction: column;
+}
+
+.mentor1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.mentor1 h2 {
+    text-align: end;
+}
+
+.cv1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cv1 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.cv1 p {
+    text-align: center;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.mentor2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    padding-top: 50px;
+
+}
+
+.mentor2 h2 {
+    text-align: start;
+}
+
+.cv2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cv2 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.cv2 p {
+    text-align: center;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+/* 
+.mentor2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.mentor2 h2 {
+    text-align: start;
+
+    }
+
+    .cv2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cv2 img {
+        width: 10px;
+        height: 10px;
+        padding-top: 10px;
+    }
+
+    .cv2 p {
+        text-align: center;
+        padding: 20px;
+        line-height: 1.4;
+    } */
+
+
+/* DISEÑO DE CONTACTO */
+.contacto {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 60px;
+}
+
+.subtitulo2 {
+    text-align: center;
+
+    padding-top: 70px;
+}
