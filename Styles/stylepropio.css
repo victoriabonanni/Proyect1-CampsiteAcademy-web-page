@@ -34,11 +34,6 @@
   padding-bottom: 8px;
 }
 
-.título {
-  /* padding-left: 225px;
-    padding-bottom: 30px; */
-}
-
 .logo {
   width: 180px;
   height: 160px;
@@ -108,11 +103,6 @@
   margin-left: 10px;
   margin-top: -3px;
 }
-
-/* porque el numero 16 lo tengo mas separado? */
-/* .fecha3 .day {
-    padding-left: 10px;
-} */
 
 .courses {
   font-weight: bold;
@@ -283,7 +273,6 @@
   margin-top: 50px;
   border: 2px solid black;
   border-collapse: collapse;
-  /* padding-top: 100px; */
 }
 
 .table .head {
@@ -397,11 +386,8 @@ ol li {
 }
 
 dt {
-  /* font-style: bold; */
   font-size: 20px;
   color: rgb(211, 102, 7);
-}
-.dd {
 }
 
 /* DISEÑO DE FORMULARIOS */
